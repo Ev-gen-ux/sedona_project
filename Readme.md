@@ -1,4 +1,4 @@
-# Личный проект «sedona_prokect»
+# Личный проект «sedona_project»
 
 * Студент: [Евгений Яковенко]({{userProfile}}).
 
