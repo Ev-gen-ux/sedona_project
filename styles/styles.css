@@ -102,23 +102,12 @@ body {
 }
 
 .hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  position: relative;
+  text-align: center;
+  background-color: #82B3D3;
+  background: url(../images/index-bg.png);
+  background-position: center, center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.welcome-logo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.background-index {
-  background-size: 100% auto, cover;
 }
 
 .divider-hero {
@@ -317,6 +306,10 @@ body {
 
 .subscription {
   text-align: center;
+  background-image: url(../images/subscribe.png);
+  background-position: center, center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .subscription-title {
@@ -325,7 +318,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 36px;
-  color: black;
+  color: white;
   text-transform: uppercase;
   margin-top: 0
 }
@@ -336,7 +329,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  color: #333333;
+  color: white;
   margin-top: 0
 }
 
@@ -384,14 +377,24 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 78px;
-  color: black;
-  margin-top: 0
+  color: white;
+  margin: 0
+}
+
+.inner-hero-catalog {
+  background-color: #82B3D3;
+  background: url(../images/catalog-bg.png);
+  background-position: center, center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .breadcrumbs-list {
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .breadcrumbs-link {
@@ -400,7 +403,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
-  color: black;
+  color: white;
   text-decoration: none;
   margin-top: 0
 }
@@ -411,7 +414,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-  color: black;
+  color: white;
   margin-top: 0
 }
 
@@ -421,8 +424,43 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-  color: black;
+  color: white;
   margin-top: 0
+}
+
+.catalog-filter-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.price-form {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #A9A9A9;
+  margin-top: 0
+}
+
+.price-to {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #A9A9A9;
+  margin-top: 0
+}
+
+.control {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  color: white;
 }
 
 .button-cataloge-filter {
@@ -444,9 +482,9 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
-  color: black;
+  color: white;
   border: none;
-  background-color: white;
+  background-color: transparent;
   cursor: pointer;
   margin-top: 0
 }
