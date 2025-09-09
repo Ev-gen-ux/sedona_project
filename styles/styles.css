@@ -344,6 +344,7 @@ body {
   border: none;
   border-radius: 4px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .page-footer {
