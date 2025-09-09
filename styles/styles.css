@@ -325,3 +325,223 @@ body {
   text-decoration: none;
   margin-top: 0
 }
+
+.catalog-filter-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: black;
+  margin-top: 0
+}
+
+.catalog-price-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: black;
+  margin-top: 0
+}
+
+.button-cataloge-filter {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  background-color: #82B3D3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 0
+}
+
+.button-cataloge-filter-reset {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  color: black;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 0
+}
+
+.catalog-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 0
+}
+
+.card-view-list {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.card-view-item {
+  list-style-type: none;
+}
+
+.sort {
+  text-decoration: none;
+}
+
+.sort-current {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  border-color: black;
+  text-decoration: none;
+}
+
+.product-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product-card {
+  background-color: white;
+  border-color: #E6E6E6;
+  border-radius: 4px;
+}
+
+.product-card-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  color: black;
+  text-decoration: none;
+  margin-top: 0;
+}
+
+.product-card-title {
+  margin: 0;
+}
+
+.price-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.hotel-card-group {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333333;
+  margin-top: 0;
+}
+
+.product-card-actions {
+  display: flex;
+  flex-direction: row;
+}
+
+.show-more {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  color: white;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.wish-list {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  color: white;
+  background-color: #82B3D3;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.rating-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rating-counter {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #333333;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  border: none;
+  margin-top: 0;
+}
+
+.pagination-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
+.pagination-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  color: white;
+  background-color: #82B3D3;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 0;
+}
+
+.pagination-link-current {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  color: black;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 0;
+}
+
+.pagination-link-truncate {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  color: black;
+  text-decoration: none;
+  margin-top: 0;
+}

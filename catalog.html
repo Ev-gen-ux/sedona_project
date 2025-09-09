@@ -112,7 +112,7 @@
         </fieldset>
 
         <button class="button-cataloge-filter" type="submit">Применить</button>
-        <button class="button-cataloge-filter" type="reset">Сбросить</button>
+        <button class="button-cataloge-filter-reset" type="reset">Сбросить</button>
 
       </section>
 
@@ -125,7 +125,7 @@
         </select>
         <ul class="card-view-list">
           <li class="card-view-item">
-            <a class="sort sort-current" href="catalog.html?view=tile">
+            <a class="sort-current" href="catalog.html?view=tile">
               <span class="visually-hidden">Показать карточки</span>
             </a>
           </li>
@@ -147,10 +147,14 @@
               <img class="product-card-image" src="/images/amara-resort.png" alt="Ущелье с видом на звезды">
               <h3 class="product-card-title">Amara Resort & Spa</h3>
             </a>
-            <p class="hotel-car-group">Гостиница</p>
-            <p class="product-card-price">4000 ₽</p>
-            <a class="show-more" href="#">Подробнее</a>
-            <button class="wish-list" type="button">В избранное</button>
+            <div class="price-info">
+              <p class="hotel-card-group">Гостиница</p>
+              <p class="hotel-card-group">4000 ₽</p>
+            </div>
+            <div class="product-card-actions">
+              <a class="show-more" href="#">Подробнее</a>
+              <button class="wish-list" type="button">В избранное</button>
+            </div>
             <ul class="rating-list">
               <li class="rating-item">
                 <button class="rating-button" type="button">Звезда</button>
@@ -172,10 +176,14 @@
               <img class="product-card-image" src="/images/villas-atpoco-diablo.png" alt="Радуга над каньоном">
               <h3 class="product-card-title">Villas at Poco Diablo</h3>
             </a>
-            <p class="hotel-car-group">Гостиница</p>
-            <p class="product-card-price">5000 ₽</p>
-            <a class="show-more" href="#">Подробнее</a>
-            <button class="wish-list wish-list-current" type="button">В избранном</button>
+            <div class="price-info">
+              <p class="hotel-card-group">Гостиница</p>
+              <p class="hotel-card-group">5000 ₽</p>
+            </div>
+            <div class="product-card-actions">
+              <a class="show-more" href="#">Подробнее</a>
+              <button class="wish-list wish-list-current" type="button">В избранном</button>
+            </div>
             <ul class="rating-list">
               <li class="rating-item">
                 <button class="rating-button" type="button">Звезда</button>
@@ -197,10 +205,14 @@
               <img class="product-card-image" src="/images/desert-quail-inn.png" alt="Деревья перед каньоном">
               <h3 class="product-card-title">Desert Quail Inn</h3>
             </a>
-            <p class="hotel-car-group">Гостиница</p>
-            <p class="product-card-price">2500 ₽</p>
-            <a class="show-more" href="#">Подробнее</a>
-            <button class="wish-list" type="button">В избранное</button>
+            <div class="price-info">
+              <p class="hotel-card-group">Гостиница</p>
+              <p class="hotel-card-group">2500 ₽</p>
+            </div>
+            <div class="product-card-actions">
+              <a class="show-more" href="#">Подробнее</a>
+              <button class="wish-list" type="button">В избранное</button>
+            </div>
             <ul class="rating-list">
               <li class="rating-item">
                 <button class="rating-button" type="button">Звезда</button>
@@ -219,10 +231,14 @@
               <img class="product-card-image" src="/images/green-tree.png" alt="Звездное небо над каньоном">
               <h3 class="product-card-title">GreenTree Inn</h3>
             </a>
-            <p class="hotel-car-group">Гостиница</p>
-            <p class="product-card-price">1500 ₽</p>
-            <a class="show-more" href="#">Подробнее</a>
-            <button class="wish-list" type="button">В избранное</button>
+            <div class="price-info">
+              <p class="hotel-card-group">Гостиница</p>
+              <p class="hotel-card-group">1500 ₽</p>
+            </div>
+            <div class="product-card-actions">
+              <a class="show-more" href="#">Подробнее</a>
+              <button class="wish-list" type="button">В избранное</button>
+            </div>
             <ul class="rating-list">
               <li class="rating-item">
                 <button class="rating-button" type="button">Звезда</button>
@@ -235,9 +251,9 @@
           </li>
         </ul>
 
-        <ul class="pagination">
+        <ul class="pagination-list">
           <li class="pagination-item">
-            <a class="pagination-link pagination-current" href="#" aria-current="page">1</a>
+            <a class="pagination-link-current" href="#" aria-current="page">1</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">2</a>
@@ -249,7 +265,7 @@
             <a class="pagination-link" href="#">4</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">...</a>
+            <a class="pagination-link-truncate" href="#">...</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
