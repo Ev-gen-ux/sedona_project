@@ -43,24 +43,46 @@ html {
 }
 
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #333333;
-  margin: 0;
   background: #F2F2F2;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.20);
+}
+
+.page-container {
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .page-header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   background-color: white;
+}
+
+.naviation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  width: 1060px;
+  margin: 0 auto;
 }
 
 .navigation-list {
   display: flex;
   flex-direction: row;
+  width: 446px;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation-item {
@@ -70,6 +92,10 @@ body {
 .navigation-user {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
+  width: 446px;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation-link {
@@ -96,18 +122,26 @@ body {
   border-radius: 4px;
 }
 
+.main-container {
+  flex-grow: 1;
+}
+
 .main-index {
   color: black;
   background-color: white;
 }
 
 .hero {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #82B3D3;
   background: url(../images/index-bg.png);
   background-position: center, center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 1200px;
+  height: 485px;
 }
 
 .divider-hero {
@@ -116,7 +150,12 @@ body {
 }
 
 .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  height: 261px;
+  gap: 25px;
 }
 
 .about-title {
@@ -126,7 +165,9 @@ body {
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 25px;
 }
 
 .about-discription {
@@ -136,12 +177,31 @@ body {
   font-style: normal;
   font-weight: 400;
   color: #333333;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .advantages-about {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   text-align: center;
   background-color: #82B3D3;
+}
+
+.advantages-about-bridge {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 62px;
+}
+
+.advantages-about-city {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  gap: 62px ;
 }
 
 .advantages-city-title {
@@ -152,7 +212,7 @@ body {
   font-weight: 700;
   color: white;
   text-transform: uppercase;
-  margin-top: 0;
+  margin: 0;
 }
 
 .advantages-city-discription {
@@ -162,20 +222,29 @@ body {
   font-style: normal;
   font-weight: 400;
   color: white;
-  margin-top: 0;
+  margin: 0;
 }
 
 .advantages-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   list-style-type: none;
   text-align: center;
+  width: 1200px;
+  height: 385px;
   margin: 0;
   padding: 0;
 }
 
 .advantages-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 62px;
+  width: 400px;
+  height: 385px;
   background-color: white;
 }
 
@@ -191,7 +260,9 @@ body {
   font-weight: 700;
   color: black;
   text-transform: uppercase;
-  margin-top: 0;
+  margin: 0;
+  padding-bottom: 30;
+
 }
 
 .advantages-discription {
@@ -201,7 +272,8 @@ body {
   font-style: normal;
   font-weight: 400;
   color: #333333;
-  margin-top: 0
+  margin: 0;
+  padding: 0;
 }
 
 .welcome {
@@ -350,12 +422,18 @@ body {
 }
 
 .page-footer {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+}
+
+.page-footer-container {
   display: grid;
-  grid-template-columns: 142px 720px 115px;
+  grid-template-columns: 200px 660px 200px;
   place-items: center;
   justify-content: center;
+  width: 1060px;
   height: 120px;
-  background-color: white;
 }
 
 .social-list {
