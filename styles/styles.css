@@ -357,8 +357,8 @@ body {
 }
 
 .search-result {
-
-  padding: 70px 50px 70px 60px;
+  width: 1060px;
+  margin: 0 auto;
 }
 
 .search {
@@ -605,6 +605,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 40px;
+  padding-top: 50px;
+  width: 1060px;
 }
 
 .control {
@@ -679,9 +681,12 @@ body {
 
 
 .product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
   list-style-type: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .product-card {
@@ -818,6 +823,31 @@ body {
 
 .rating-button {
   cursor: pointer;
+}
+
+.hr-line {
+  height: 0;
+  border: none;
+  border-top: 1px solid #E5E5E5;
+  text-align: center;
+  width: 1060px;
+}
+
+.hr-container {
+  display: flex;
+  align-items: center;
+  height: 80px;
+
+
+}
+
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 1060px;
+  margin: 0 auto;
+  padding-bottom: 60px;
 }
 
 .pagination-list {
