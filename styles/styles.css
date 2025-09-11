@@ -356,6 +356,11 @@ body {
   padding: 0;
 }
 
+.search-result{
+
+  padding: 70px 50px 70px 60px;
+}
+
 .search {
   display: flex;
   flex-direction: column;
@@ -399,6 +404,7 @@ body {
   border: none;
   border-radius: 4px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .subscription {
@@ -508,6 +514,10 @@ body {
   background-position: center, center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-left: 70px;
+  padding-top: 35px;
+  padding-right: 70px;
+  padding-bottom: 70px;
 }
 
 .breadcrumbs-list {
@@ -575,6 +585,13 @@ body {
   margin-top: 0
 }
 
+.catalog-control-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
 .control {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
@@ -618,7 +635,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: black;
-  margin-top: 0
+  margin: 0
 }
 
 .card-view-list {
@@ -702,6 +719,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   margin-top: 0;
+  cursor: pointer;
 }
 
 .wish-list {
@@ -715,6 +733,7 @@ body {
   border: none;
   text-transform: uppercase;
   margin-top: 0;
+  cursor: pointer;
 }
 
 .rating-list {
@@ -724,6 +743,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 
 .rating-counter {
   display: flex;
@@ -744,6 +764,10 @@ body {
 .rating-container {
   display: flex;
   flex-direction: row;
+}
+
+.rating-button {
+  cursor: pointer;
 }
 
 .pagination-list {
