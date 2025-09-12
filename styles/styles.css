@@ -55,6 +55,7 @@ body {
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.20);
 }
 
+
 .page-container {
   margin: 0 auto;
   width: 1200px;
@@ -479,6 +480,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   grid-column: 1/2;
+  gap: 2px;
   margin: 0;
   padding: 0;
 }
@@ -489,6 +491,13 @@ body {
   height: 40px;
   margin: 0;
   padding: 0;
+}
+
+.button-social {
+  display: block;
+  box-sizing: border-box;
+  padding: 12px 13px;
+  border: 1px solid black;
 }
 
 .contacts-phone {
@@ -873,6 +882,8 @@ body {
 .pagination-link {
   display: block;
   box-sizing: border-box;
+  width: 60px;
+  height: 60px;
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -882,8 +893,6 @@ body {
   background-color: #82B3D3;
   border-radius: 4px;
   text-decoration: none;
-  width: 60px;
-  height: 60px;
   padding: 14px 21px;
   margin-top: 0;
 }
@@ -891,6 +900,8 @@ body {
 .pagination-link-current {
   display: block;
   box-sizing: border-box;
+  width: 60px;
+  height: 60px;
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -900,8 +911,6 @@ body {
   background-color: #F2F2F2;
   border-radius: 4px;
   text-decoration: none;
-  width: 60px;
-  height: 60px;
   padding: 14px 22px;
   margin-top: 0;
 }
