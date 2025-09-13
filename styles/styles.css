@@ -910,6 +910,20 @@ body {
   left: 0;
 }
 
+.catalog-filter-group {
+  margin: 0;
+  padding-right: 70px;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: none;
+}
+
+.catalog-filter-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .catalog-filter-title {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
@@ -917,14 +931,107 @@ body {
   font-weight: 700;
   line-height: 24px;
   color: white;
-  margin-top: 0
+  margin-top: 0;
+  padding-bottom: 32px
 }
 
 .catalog-filter-products {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 1060px;
   height: 160px;
+  margin: 0;
+  padding: 0;
+}
+
+.input-field-for {
+  text-indent: 20px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: black;
+  margin: 0;
+  border: none;
+  outline: none;
+  border-radius: 4px 0 0 4px;
+  background-color: #F2F2F2;
+  width: 143px;
+  height: 48px;
+  cursor: pointer;
+}
+
+
+.price-for {
+  position: absolute;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #A9A9A9;
+  top: 12px;
+  left: 248px;
+  margin-top: 0
+}
+
+.input-field-for:hover {
+  background-color: #E5E5E5;
+}
+
+.input-field-for:focus-visible {
+  outline: 3px solid #83B3D3;
+}
+
+.input-field-to:hover {
+  background-color: #E5E5E5;
+}
+
+.input-field-to:focus-visible {
+  outline: 3px solid #83B3D3;
+}
+
+.catalog-filter-price {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.price-to {
+  position: absolute;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #A9A9A9;
+  top: 12px;
+  left: 106px;
+  margin-top: 0
+}
+
+.input-field-to {
+  text-indent: 20px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: black;
+  margin: 0;
+  border: none;
+  outline: none;
+  border-radius: 0 4px 4px 0px;
+  background-color: #F2F2F2;
+  width: 143px;
+  height: 48px;
+  cursor: pointer;
 }
 
 .button-cataloge-filter-container {
@@ -942,23 +1049,18 @@ body {
   font-weight: 700;
   line-height: 24px;
   color: white;
-  margin-top: 0
+  margin-top: 0;
+  padding-bottom: 32px;
 }
 
 .catalog-filter-list {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  gap: 16px;
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.price-for {
-  font-family: "PT Sans", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  color: #A9A9A9;
-  margin-top: 0
 }
 
 .price-to {
