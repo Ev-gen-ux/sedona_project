@@ -284,10 +284,96 @@ body {
   padding: 0;
 }
 
+.divider-about::before {
+  background-image: url(../images/divider-about.svg);
+}
+
+.divider-advantages::before {
+  background-image: url(../images/advantages-divider.svg);
+}
+
+.hotel::before {
+  background-image: url(../images/icon-home.svg);
+}
+
+.souvenir::before {
+  background-image: url(../images/icon-souvenir.svg);
+}
+
+.burger::before {
+  background-image: url(../images/icon-burger.svg);
+}
+
+.services-item::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 75px;
+  height: 74px;
+  top: 81px;
+  left: 162px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.services-item-accent::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 75px;
+  height: 74px;
+  top: 81px;
+  left: 162px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.advantages-item::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  top: 198px;
+  left: 170px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.advantages-about-city::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  top: 188px;
+  left: 170px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.advantages-about-bridge::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  top: 188px;
+  left: 970px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .advantages-about {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: relative;
   text-align: center;
   background-color: #82B3D3;
 }
@@ -342,6 +428,7 @@ body {
 }
 
 .advantages-item {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -423,16 +510,18 @@ body {
 }
 
 .services-item {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 62px;
+  gap: 30px;
   width: 400px;
   height: 385px;
   background-color: white;
 }
 
 .services-item-accent {
+  position: relative;
   background-color: hsla(204, 48%, 67%, 0.12);
 }
 
@@ -445,7 +534,7 @@ body {
   color: black;
   text-transform: uppercase;
   margin: 0;
-  padding: 0;
+  padding-top: 102px;
 }
 
 .services-discription {
