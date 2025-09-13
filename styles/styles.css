@@ -1170,6 +1170,9 @@ body {
 }
 
 .show-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -1179,8 +1182,29 @@ body {
   background-color: #756157;
   text-decoration: none;
   text-transform: uppercase;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
+  width: 140px;
+  height: 36px;
+  border-radius: 4px;
   cursor: pointer;
+}
+
+.show-more:hover {
+  background-color: #615048;
+}
+
+.show-more:active {
+  background-color: #756157;
+  color: #9E9089;
+}
+
+.show-more:focus-visible {
+  background-color: #615048;
+}
+
+.show-more:disabled {
+  background-color: #E5E5E5;
 }
 
 .wish-list {
@@ -1193,14 +1217,41 @@ body {
   background-color: #82B3D3;
   border: none;
   text-transform: uppercase;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
+  width: 140px;
+  height: 36px;
+  border-radius: 4px;
   cursor: pointer;
+}
+
+.wish-list:hover {
+  background-color: #82B3D3;
+}
+
+.wish-list:active {
+  background-color: #82B3D3;
+  color: #A7CAE0;
+}
+
+.wish-list:focus-visible {
+  background-color: #68A2CA;
+
+}
+
+.wish-list:disabled {
+  background-color: #E5E5E5;
+  color: white;
 }
 
 .rating-list {
   display: flex;
+  align-items: center;
   flex-direction: row;
   list-style-type: none;
+  width: 140px;
+  height: 36px;
+  gap: 12px;
   margin: 0;
   padding: 0;
 }
@@ -1209,6 +1260,7 @@ body {
 .rating-counter {
   display: flex;
   align-items: center;
+  justify-content: center;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -1220,6 +1272,14 @@ body {
   border: none;
   margin: 0;
   text-align: center;
+  width: 140px;
+  height: 36px;
+}
+
+.rating-item {
+  position: relative;
+  width: 18px;
+  height: 18px;
 }
 
 .rating-container {
@@ -1227,7 +1287,26 @@ body {
   flex-direction: row;
 }
 
+.rating-star::before {
+  background: url(../images/icon-rating-star.svg);
+}
+
+.rating-button::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 2px;
+  left: 2px;
+}
+
 .rating-button {
+  background: none;
+  border: none;
   cursor: pointer;
 }
 
