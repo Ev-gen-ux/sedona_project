@@ -1013,6 +1013,60 @@ body {
   border: none;
 }
 
+.range-scale {
+  position: relative;
+  width: 224px;
+  height: 4px;
+  margin-top: 36px;
+  background-color: white;
+}
+
+.range-bar {
+  position: absolute;
+  height: 4px;
+  background-color: #D0D0D0;
+}
+
+.toggle-min {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  top: -8px;
+  left: -218px;
+  cursor: pointer;
+}
+
+.toggle-max {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  top: -8px;
+  left: 0;
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.range-toggle:active {
+  border: 2px solid #83B3D3;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.range-toggle:focus-visible {
+  border: 3px solid #83B3D3;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+
 .price-to {
   position: absolute;
   font-family: "PT Sans", sans-serif;

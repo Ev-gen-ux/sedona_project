@@ -124,13 +124,28 @@
             </div>
 
 
-            <fieldset class="catalog-filter-price">
-              <legend class="catalog-price-title">Стоимость, ₽:</legend>
-              <label class="price-for" for="price-form">от</label>
-              <input class="input-field-for" type="number" name="price-form" id="price-from" value="0">
-              <label class="price-to" for="price-to">до</label>
-              <input class="input-field-to" type="number" name="price-to" id="price-to" value="500">
-            </fieldset>
+            <div class="range-container">
+              <fieldset class="catalog-filter-price">
+                <legend class="catalog-price-title">Стоимость, ₽:</legend>
+                <label class="price-for" for="price-form">от</label>
+                <input class="input-field-for" type="number" name="price-form" id="price-from" value="0">
+                <label class="price-to" for="price-to">до</label>
+                <input class="input-field-to" type="number" name="price-to" id="price-to" value="500">
+              </fieldset>
+
+              <div class="range-scale">
+                <div class="range-bar" style="left: 216px; width: 80px">
+                  <button type="button" class="range-toggle toggle-min">
+                    <span class="visually-hidden" hidden>Изменить минимальную цену.</span>
+                  </button>
+                  <button type="button" class="range-toggle toggle-max">
+                    <span class="visually-hidden" hidden>Изменить максимальную цену.</span>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
 
             <div class="button-cataloge-filter-container">
               <button class="button-cataloge-filter" type="submit">Применить</button>
