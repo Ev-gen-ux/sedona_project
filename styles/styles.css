@@ -910,6 +910,18 @@ body {
   left: 0;
 }
 
+.breadcrumbs-link:hover {
+  color: #C9DAE8;
+}
+
+.breadcrumbs-link:focus-visible {
+  color: hsla(204, 48%, 67%, 1);
+}
+
+.breadcrumbs-link:active {
+  color: #9EA4A9;
+}
+
 .catalog-filter-group {
   margin: 0;
   padding-right: 70px;
