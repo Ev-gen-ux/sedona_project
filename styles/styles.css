@@ -871,6 +871,8 @@ body {
   position: relative;
 }
 
+.breadcrumbsi-item
+
 .breadcrumbsi-item-home::before {
   background-image: url(../images/icob-breadcrumbs-home.svg);
 }
@@ -1149,6 +1151,81 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.control {
+  position: relative;
+  display: block;
+  padding-left: 32px;
+  cursor: pointer;
+}
+
+.control-mark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.control-mark-radio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.control:hover {
+  color: white;
+  opacity: 0.6;
+}
+
+.control-mark:hover {
+  color: white;
+  opacity: 0.6;
+}
+
+.control-mark:focus-visible {
+  border-color: (204, 48%, 67%, 1);
+}
+
+.control:disabled {
+  color: #BABABA;
+}
+
+.control-mark:hover {
+  color: #BABABA;
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::before {
+  background: url(../images/checkbox-control-mark.svg);
+  content: "";
+  position: absolute;
+  display: block;
+  width: 12px;
+  height: 10px;
+  top: 5px;
+  left: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.control-input-radio[type="radio"]:checked + .control-mark-radio::before {
+  background: url(../images/radio-control-mark.svg);
+  content: "";
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  top: 5px;
+  left: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .price-to {
