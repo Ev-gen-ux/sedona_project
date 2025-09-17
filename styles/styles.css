@@ -867,13 +867,11 @@ body {
   margin-top: 0
 }
 
-.breadcrumbsi-item {
+.breadcrumbs-item {
   position: relative;
 }
 
-.breadcrumbsi-item
-
-.breadcrumbsi-item-home::before {
+.breadcrumbs-item .breadcrumbs-item-home::before {
   background-image: url(../images/icob-breadcrumbs-home.svg);
 }
 
@@ -886,7 +884,7 @@ body {
   background-color: transparent;
   background-position: center;
   background-repeat: no-repeat;
-  top: 4px;
+  top: 5px;
   left: 0;
 }
 
@@ -1404,6 +1402,7 @@ body {
   border-radius: 4px;
   border: 2px solid #E5E5E5;
   cursor: pointer;
+  padding-right: 8px;
 }
 
 .select-control:hover {
