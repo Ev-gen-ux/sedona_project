@@ -985,6 +985,18 @@ body {
   cursor: pointer;
 }
 
+.input-field-for::-webkit-outer-spin-button,
+.input-field-for::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.input-field-to::-webkit-outer-spin-button,
+.input-field-to::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
 
 .price-for {
   position: absolute;
