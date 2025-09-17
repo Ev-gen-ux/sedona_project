@@ -1976,17 +1976,6 @@ body {
   border: none;
 }
 
-.wrapper-form {
-  display: grid;
-  grid-template-columns: 137px 1fr;
-  grid-template-rows: 48px 48px 48px;
-  align-content: center;
-  row-gap: 24px;
-  column-gap: 24px;
-  width: 717px;
-  height: 240px;
-}
-
 .arrival-date-label {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
@@ -2003,6 +1992,11 @@ body {
   font-weight: 700;
   line-height: 24px;
   color: black;
+}
+
+.search-hotel {
+  width: 717px;
+  height: 240px;
 }
 
 .input-date-arrival {
@@ -2075,19 +2069,4 @@ body {
   height: 60px;
   border: none;
   cursor: pointer;
-}
-
-.arrival-date-label {
-  grid-column: 1/2;
-  grid-template-rows: 1/2;
-}
-
-.departure-date-label {
-  grid-column: 1/2;
-  grid-template-rows: 1/2;
-}
-
-.input-date-arrival {
-  grid-column: 2/4;
-  grid-row: 2/5;
 }
