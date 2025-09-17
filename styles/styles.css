@@ -1753,6 +1753,10 @@ body {
   transition: transform 0.5s ease-in-out;
 }
 
+.subscription-input::placeholder {
+  color: hsla(0, 0%, 0%, 1);
+  opacity: 0.6;
+}
 
 .subscription-input:valid {
   background-color: white;
@@ -1762,6 +1766,11 @@ body {
   font-weight: 700;
   line-height: 24px;
   color: black;
+}
+
+.subscription-input:disabled {
+  color: hsla(0, 0%, 0%, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.30);
 }
 
 .subscription-form {
