@@ -192,17 +192,25 @@
         <section class="modal-content">
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
 
-
           <form class="search-hotel" action="https://echo.htmlacademy.ru" method="post">
             <fieldset class="search-hotel-date">
               <legend class="visually-hidden" hidden>Поиск отелей по датам</legend>
-
-              <label class="arrival-date-label" for="arrival-date-form">Дата заезда:</label>
-              <input class="input-date-arrival" type="date" name="arrival-date" id="arrival-date-form">
-
-              <label class="departure-date-label" for="departure-date-form">Дата выезда:</label>
-              <input class="input-departure-date" type="date" name="departure-date" id="departure-date-form">
-
+              <div class="date-container">
+                <label class="arrival-date-label" for="arrival-date-form">Дата заезда:</label>
+                <div class="date-arrival-container">
+                  <input class="input-date-arrival" placeholder="27 апреля 2020" type="date" name="arrival-date"
+                    id="arrival-date-form">
+                  <span class="error-message">Мы не можем отправить вас в прошлое.</span>
+                </div>
+              </div>
+              <div class="date-container">
+                <label class="departure-date-label" for="departure-date-form">Дата выезда:</label>
+                <div class="date-arrival-container">
+                  <input class="input-date-arrival" placeholder="1 сентября 2023" type="date" name="departure-date"
+                    id="departure-date-form">
+                  <span class="help-message">На эти даты есть свободные номера. Пока есть.</span>
+                </div>
+              </div>
             </fieldset>
           </form>
 
