@@ -1928,6 +1928,10 @@ body {
   background-color: rgba(242, 242, 242, 0.80);
 }
 
+.modal-wrapper {
+  display: none;
+}
+
 .modal-auth {
   position: relative;
   margin: auto;
@@ -1955,6 +1959,18 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+}
+
+.modal-close-button:hover {
+  background-color: #E5E5E5;
+}
+
+.modal-close-button:active {
+  background-color: #F2F2F2;
+}
+
+.modal-close-button:focus-visible {
+  outline: hsla(204, 48%, 67%, 1);
 }
 
 .modal-title {
@@ -2025,6 +2041,22 @@ body {
   cursor: pointer;
 }
 
+.input-date-arrival:hover {
+  background-color: #E5E5E5;
+}
+
+.input-date-arrival:focus-visible {
+  outline: 3px solid #83B3D3;
+}
+
+.input-date-arrival:valid {
+  color: black;
+}
+
+.input-date-arrival::placeholder {
+  color: black;
+}
+
 .input-departure-date {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
@@ -2072,6 +2104,21 @@ body {
   height: 60px;
   border: none;
   cursor: pointer;
+}
+
+.button-search-hotelt:hover {
+  background-color: #68A2CA;
+}
+
+
+.button-search-hotelt:active {
+  color: #95BEDA;
+  background-color: #82B3D3;
+}
+
+
+.button-search-hotelt:focus-visible {
+  background-color: #68A2CA;
 }
 
 .date-container {
@@ -2141,6 +2188,19 @@ body {
   background-image: url(../images/button-minus.svg);
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
+}
+
+.counter-button-plus:hover {
+  background-color: #E5E5E5;
+}
+
+.counter-button-plus:focus-visible {
+  outline: 3px solid #83B3D3;
+}
+
+.counter-button-plus:active {
+  background-color: #F2F2F2;
 }
 
 .counter-button-minus {
@@ -2152,7 +2212,21 @@ body {
   background-image: url(../images/button-plus.svg);
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
+
+.counter-button-minus:hover {
+  background-color: #E5E5E5;
+}
+
+.counter-button-minus:focus-visible {
+  outline: 3px solid #83B3D3;
+}
+
+.counter-button-minus:active {
+  background-color: #F2F2F2;
+}
+
 
 .field-label {
   position: relative;
@@ -2176,9 +2250,22 @@ body {
   padding: 14px 10px 14px 10px;
   background-color: #F2F2F2;
   text-align: center;
+  cursor: pointer;
+}
+
+.field-input-numbers:hover {
+  background-color: #E5E5E5;
+}
+
+.field-input-numbers:focus-visible {
+  outline: 3px solid #83B3D3;
 }
 
 .field-input-numbers::placeholder {
+  color: black;
+}
+
+.field-input-numbers:valid {
   color: black;
 }
 
