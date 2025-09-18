@@ -1999,7 +1999,7 @@ body {
 
 .search-hotel {
   width: 717px;
-  height: 240px;
+  height: 100%;
 }
 
 .input-date-arrival {
@@ -2110,4 +2110,91 @@ body {
   color: #333333;
   padding-left: 20px;
   padding-top: 4px;
+}
+
+.counter-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 48px;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.people-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 58px;
+}
+
+.counter-button-plus {
+  width: 40px;
+  height: 48px;
+  border-radius: 4px 0 0 4px;
+  background-color: #F2F2F2;
+  border: none;
+  background-image: url(../images/button-minus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.counter-button-minus {
+  width: 40px;
+  height: 48px;
+  border-radius: 0 4px 4px 0;
+  background-color: #F2F2F2;
+  border: none;
+  background-image: url(../images/button-plus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.field-label {
+  position: relative;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  color: black;
+}
+
+.field-input-numbers {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  color: black;
+  border: none;
+  width: 40px;
+  padding: 14px 10px 14px 10px;
+  background-color: #F2F2F2;
+  text-align: center;
+}
+
+.field-input-numbers::placeholder {
+  color: black;
+}
+
+.tooltip-info::after {
+  background-image: url(../images/icon-info.svg);
+}
+
+.field-label::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 6px;
+  left: 60px;
 }

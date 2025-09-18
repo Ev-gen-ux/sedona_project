@@ -214,6 +214,36 @@
             </fieldset>
           </form>
 
+          <div class="counter-wrapper">
+            <div class="counter-container">
+              <label class="field-label" for="counter-people">Взрослые:</label>
+              <div class="people-container">
+                <button class="counter-button-plus" value="remove-people" type="button">
+                  <span class="visually-hidden" hidden>Минус</span>
+                </button>
+                <input class="field-input-numbers" id="counter-people" placeholder="2" type="text" pattern="[0-9]*"
+                  name="num-people" required>
+                <button class="counter-button-minus" value="add-people" type="button">
+                  <span class="visually-hidden" hidden>Плюс</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="counter-container">
+              <label class="field-label tooltip-info" for="counter-people">Дети:</label>
+              <div class="people-container">
+                <button class="counter-button-plus" value="remove-people" type="button">
+                  <span class="visually-hidden" hidden>Минус</span>
+                </button>
+                <input class="field-input-numbers" id="counter-people" placeholder="2" type="text" pattern="[0-9]*"
+                  name="num-people" required>
+                <button class="counter-button-minus" value="add-people" type="button">
+                  <span class="visually-hidden" hidden>Плюс</span>
+                </button>
+              </div>
+            </div>
+
+          </div>
 
           <button class="button-search-hotelt" type="submit">Найти</button>
         </section>
